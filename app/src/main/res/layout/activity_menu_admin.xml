@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imagen"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MENU PRINCIPAL"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnMenu1"
+                android:layout_width="163dp"
+                android:layout_height="156dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/prodcutosimages" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btnMenu2"
+                android:layout_width="163dp"
+                android:layout_height="156dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/inventarionuevos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnMenu3"
+                android:layout_width="180dp"
+                android:layout_height="159dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/categoriasnuevas" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="22dp"
+                android:layout_height="149dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <ImageButton
+                android:id="@+id/btnMenu4"
+                android:layout_width="181dp"
+                android:layout_height="162dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/proveedoresnuevos" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnMenu5"
+                android:layout_width="163dp"
+                android:layout_height="159dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ingresosoriginalesnuevos" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="2dp"
+                android:layout_height="149dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <ImageButton
+                android:id="@+id/btnMenu6"
+                android:layout_width="163dp"
+                android:layout_height="159dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/egresosnuevos" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="8dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="128dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnIr"
+                android:layout_width="8dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/ire" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="56dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
